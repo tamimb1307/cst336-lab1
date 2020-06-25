@@ -37,6 +37,12 @@ footer { /* Change footer text size and color*/
   color: gray;  /* Special color for link of home page */
 }
 
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
 table {
     margin: 0px auto;
 }
