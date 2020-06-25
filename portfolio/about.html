@@ -36,24 +36,36 @@ in html
             
             <br /><br /> <!-- Line break -->
             
-            <main> <!-- main content -->
-                <figure> <!-- includes an image -->
-                    <img src="img/tamim.png" alt="Picture of Tamim" />
-                </figure>
+            <!--this is our table with ID, table row table data-->
+            <div id ="content">
+                <!--create the table to hold data-->
+                <table>
+                    <tr id="table-header">
+                        <td><strong>Programming Language</strong></td>
+                        <td><strong>Years Experience</strong></td>
+                    </tr>
+                    <tr class="table-row">
+                        <td>Java</td>
+                        <td>3</td>
+                    </tr>
+                    <tr class = "table-row">
+                        <td>C++</td>
+                        <td>4</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td>PHP</td>
+                        <td>2</td>
+                    </tr>
+                </table>
                 
-                <div> <!-- defines container -->
-                    Hello! <br /> 
-                    <p> Thank you for visiting my portfolio website.</p> <!-- paragraph -->
-                    <p> Feel free to contact me!</p>
-                    <br /><br />
-                    <!-- Em for italics strong for bold -->
-                    <em>"With ordinary talent and extraordinary <strong>perserverance</strong>, all things are attainable" </em><br /> 
-                    - Thomas F. Buxton
-                    
-                </div>
-            </main>
-        
-        
+                <!--additional personal info-->
+                <ul>
+                    <li><span class="hobby">Video Games</span>: I play Xbox.</li>
+                    <li><span class="hobby">Soccer</span>: I play soccer with friends weekends.</li>
+                    <li><span class="hobby">Music</span>: I like all types of music</li>
+                    <li><span class="hobby">Programming</span>: I spend hours every day using programming languages.</li>
+                </ul>
+            </div>
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
         <footer>
