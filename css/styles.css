@@ -33,7 +33,7 @@ footer { /* Change footer text size and color*/
  color: blue;
 }
 
-#current {
+.current {
   color: gray;  /* Special color for link of home page */
 }
 
